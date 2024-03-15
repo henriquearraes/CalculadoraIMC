@@ -26,7 +26,7 @@ public class PesoAltura {
 		}else if (imc>=18.5 && imc<25) {
 			JOptionPane.showMessageDialog(null, nomeStr+",\nSeu peso está normal.\nSeu IMC deu: "+imc);
 		}else if(imc>=0 && imc<18.5) {
-			JOptionPane.showMessageDialog(null, nomeStr+",\nVocê está abaixo do peso normal.\nSeu IMC deu: "+imc)
+			JOptionPane.showMessageDialog(null, nomeStr+",\nVocê está abaixo do peso normal.\nSeu IMC deu: "+imc);
 		}else {
 			JOptionPane.showMessageDialog(null, nomeStr+",\nSeu IMC deu um valor inválido!");
 		}
