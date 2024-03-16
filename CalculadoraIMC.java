@@ -6,9 +6,9 @@ public class CalculadoraIMC {
 				+ "veremos se você está saudável ou não.");
 		
 		String nomeStr=JOptionPane.showInputDialog("Digite seu nome: \n");
-		String pesoStr=JOptionPane.showInputDialog("Digite seu peso em kg: \n");
+		String pesoStr=JOptionPane.showInputDialog("Digite seu peso em kg: \n").replace(",", ".");
 		double peso = Double.parseDouble(pesoStr);
-		String alturaStr=JOptionPane.showInputDialog("Digite sua altura em metros: \n");
+		String alturaStr=JOptionPane.showInputDialog("Digite sua altura em metros: \n").replace(",", ".");
 		double altura = Double.parseDouble(alturaStr);
 		
 		double imc = peso / (altura * altura);
